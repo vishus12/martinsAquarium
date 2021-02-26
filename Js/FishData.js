@@ -40,7 +40,7 @@ const fishCollection = [
 		saltWater: true,
 		harvestLocation: "Atlantic Ocean",
 		diet: "Herring",
-		name: "Sabre",
+		name: "Labre",
 		species: "Swordfish",
 		inches: 117.6,
 		image: "bluefish.jpg"
@@ -239,6 +239,6 @@ export const namedFish = (whatIsTheName) => {
 
 export const getFish3 = () => fishCollection;
 
-export function getFish2(){
+export function getFish2() {
 	return fishCollection;
 }
